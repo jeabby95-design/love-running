@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: red;
+    text-align: center;
+}
+
+/* Main Content */
+main {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
