@@ -80,12 +80,14 @@ list-style-type: none;
     cursor: pointer;
     display: block;
     color: #252525;
+}
 /* Main Content */
 
 main {
     background-color: lightblue;
     /* Ensures main takes up remaining space to push footer*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
