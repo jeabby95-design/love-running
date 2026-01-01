@@ -25,6 +25,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline
 }
 header a {
     text-decoration: none;
@@ -60,8 +63,23 @@ list-style-type: none;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none; /* Hidden by default */
-    
+    top: 100%;
+
  }
+/*Nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    cursor: pointer;
+    display: block;
+    color: #252525;
 /* Main Content */
 
 main {
