@@ -77,9 +77,6 @@ list-style-type: none;
 
 .nav-toggle-label {
     font-size: 2rem;
-    cursor: pointer;
-    display: block;
-    color: #252525;
 }
 /* Main Content */
 
@@ -92,9 +89,27 @@ main {
 
 /* Footer */
 footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-    color: #555;
+    background-color: orange
 }
+
+/* Media Query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+   /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+}
+
